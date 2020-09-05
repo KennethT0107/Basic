@@ -1,0 +1,25 @@
+body
+{
+    background-color: lightblue;
+}
+.row 
+{
+    display: flex;
+    border-bottom:10px solid black;
+    margin:50px 130px;
+    padding:20px;
+}
+  
+.column-left 
+{
+    flex: 50%;
+    padding:30px;
+    text-align:center;
+    border-right:5px solid black;
+}
+.column-right
+{
+    flex: 50%;
+    padding:30px;
+    text-align:center;
+}
